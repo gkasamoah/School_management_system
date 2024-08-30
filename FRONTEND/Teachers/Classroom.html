@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+   #container{
+    display: grid;
+    grid-template-columns: 15%   85%;
+    column-gap: 10px;
+   }
+
+   #box1{
+    background-color: #9CBCDB;
+    height: 98vh;
+   
+   }
+   
+   #box1 span a{
+    padding:25px;
+    text-decoration: none;
+    color: white;
+    margin-top: 25px;
+    font-size: 20px;
+    
+   }
+   #box1 span a:hover{
+    color: #0b0c0c;
+    transition: ease-out;
+   }
+   #box2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    
+   }
+   #flexitem1{
+    background-color: white;
+    height: 40vh;
+    border-radius: 10px;
+   }
+   #flexitem2{
+    background-color: #9CBCDB;
+    height: 30vh;
+    border-radius: 10px;
+    color: blue;
+   }
+  
+     {
+
+     }
+   
+
+    </style>
+
+
+
+    <div id="container">
+       
+      <div id="box1"> 
+        <span><a href="http://localhost/school/FRONTEND/Teachers/GradeRecord.php" style="padding:10px;">Grade Recording</a></span> <br> <br>
+        <span><a href="http://localhost/school/FRONTEND/Teachers/GradeReview.php">Grade Review</a></span> <br> <br>
+        <span><a href="http://localhost/school/FRONTEND/Teachers/Attendance.php">Attendance</a></span> <br> <br>
+        <span><a href="http://localhost/school/FRONTEND/Teachers/Lessonplan.php">Lesson plan</a></span> <br> <br>
+   
+    </div>
+    <div id="box2" >
+        <div id="flexitem1" >
+             <p>Calender</p>
+            <img src="http://localhost/school/images/calendar-1847346_1280.png" height="170vh"  width="350vw"  alt=""> 
+        </div>
+
+        <div id="flexitem2">
+            <h2>Term Examination Review</h2>
+
+            <li>Term One</li>
+            <li>Term Two</li>
+            <li>Term Three</li>
+        </div> 
+
+        <div id="flexitem2">
+            <h2>Lesson Plan Summary</h2>
+
+            <li>Week One</li>
+            <li>Week Two</li>
+            <li>Week Three</li>
+            <li>Week four</li>
+        </div>
+                                
+</div>
+           
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    font-size: 45px;
+    
+}
+#form_container{
+    display: flex;
+    justify-content: center;
+    
+}
+input{
+    height: 2em;
+    width: 16em;
+}
+input:invalid{
+    border-color: red;
+}
+
+span{
+    color: red;
+}
+
+#submit{
+    background-color: rgb(27, 27, 186);
+    color: white;
+    width: 7em;
+    height: 3em;
+    
+}
+  

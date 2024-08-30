@@ -1,0 +1,18 @@
+body{
+    background-color: white;
+}
+
+
+/* styling the forms */
+#form-container form button{
+    background-color: rgb(207, 245, 207);
+    width: 7em;
+    height: 3.5em;
+    border-radius: 12px;
+}
+#form-container form button:hover{
+    color: white;
+    transition: ease-in-out;
+
+}
+
